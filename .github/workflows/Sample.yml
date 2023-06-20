@@ -30,7 +30,7 @@ jobs:
           java add
     
     - name: Build & push Docker image
-      uses: mr-smithers-excellent/docker-build-push@v6
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
           image: alagurajausili/demo-app
           registry: docker.io
