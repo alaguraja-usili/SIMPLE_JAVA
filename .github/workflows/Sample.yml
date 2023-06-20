@@ -34,7 +34,7 @@ jobs:
       with:
           image: alagurajausili/demo-app
           registry: docker.io
-          dockerfile: Dockerfile.ci
+          dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           
