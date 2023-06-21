@@ -1,5 +1,4 @@
-FROM java:7
-MAINTAINER Sabin Basyal<sabin.basyal@docker.com>
+FROM maslick/minimalka:jdk11
 COPY src /home/root/java/src
 WORKDIR /home/root/java
 RUN mkdir bin
