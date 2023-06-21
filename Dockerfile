@@ -1,4 +1,4 @@
-FROM java:latest
+FROM alpine
 COPY src /home/root/java/src
 WORKDIR /home/root/java
 RUN mkdir bin
