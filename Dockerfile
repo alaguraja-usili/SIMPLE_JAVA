@@ -1,4 +1,4 @@
-FROM maslick/minimalka:jdk11
+FROM ubuntu:focal
 COPY src /home/root/java/src
 WORKDIR /home/root/java
 RUN mkdir bin
